@@ -1,8 +1,14 @@
 import React from 'react';
 import './App.css';
 
-function App() {
-  return <h1>Hello NWL!</h1>;
-}
+import Header from './components/Header';
+
+const App = () => {
+  return (
+    <div>
+      <Header />
+    </div>
+  );
+};
 
 export default App;
